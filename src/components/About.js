@@ -11,6 +11,7 @@ const Container = styled.div`
 `;
 
 const MyRow = styled.div`
+const Row = styled.div`
 &.banner {
 	height: 100vh;
 }
@@ -44,6 +45,7 @@ const StyledH1 = styled.h1`
 	text-align: center;
 	margin-block-start: 0;
     margin-block-end: 20px;
+    margin-block-end: 0;
 	
 	&.light-text-weight {
 		font-weight: 300;
@@ -71,6 +73,7 @@ const StyledH5 = styled.h5`
     text-transform: uppercase;
 	font-family: Rubik;
 	font-size: 13px;
+	font-size: 13pxpx;
 	font-weight: 600;
 	text-align: center;
 	margin-block-start: 0;
@@ -188,6 +191,33 @@ class About extends Component {
 				</Col>
 			</Row>
 	</Grid>
+	<Container className="container">
+		<Row className="banner">
+			<Row className="heading-container">
+				<StyledH1 className="light-text-weight">Powering Real Economy In The</StyledH1>
+				<StyledH1 className="bold-text-weight">Gaming World</StyledH1>
+			</Row>
+			<Row className="flex-center">
+				<img src={telegramIcon} />
+				<StyledH3 className="bold-text-weight">Join Our Telegram</StyledH3>
+			</Row>
+			<Row className="flex-center">
+				<Column className="column">
+					<StyledH5 className="light-text-weight">Group</StyledH5>
+					<Row className="flex-center">
+						<BtnDefault href="#" className="secondary-btn small-btn">eng</BtnDefault>
+						<BtnDefault href="#" className="secondary-btn small-btn">ind</BtnDefault>
+					</Row>
+				</Column>
+				<Column className="column">
+					<StyledH5 className="light-text-weight">Channel</StyledH5>
+					<Row className="flex-center">
+						<BtnDefault href="#" className="primary-btn medium-btn">playgameico</BtnDefault>
+					</Row>
+				</Column>
+			</Row>
+		</Row>
+	</Container>
     );
   }
 }
