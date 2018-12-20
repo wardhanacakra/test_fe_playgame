@@ -26,6 +26,38 @@ img {
     padding-top: 20px;
 }
 
+.game-thumbnail {
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.0639719);
+	border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 .events-carousel .slick-slider {
 	overflow-x: hidden;
+}
+
+.site-footer {
+	margin-top: -55px;
+}
+
+@media screen and (max-width: 768px) {
+.small-menu .nav {
+	display: block;
+}
+#about {
+	padding-top: 68px;
+}
+	
+.medium-icon {
+	width: 32px;
+	height: 32px;
+}
+
+.site-footer .row > div:nth-child(2) {
+	order: 3;
+}
+
+.site-footer .row > div:nth-child(4) {
+	order: 4;
+}
 }

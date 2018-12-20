@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import Slider from "react-slick";
+import {Wrapper, CarouselContainer, StyledH2, LinkDefault, BtnFill, GameItem, GameImage, GameDetails, GameTitle, GameDescription} from './Elements.js';
 
 class Games extends Component {
   constructor(props) {
@@ -35,6 +36,44 @@ class Games extends Component {
       )
   }
   render() {
+	  
+	  var settings = {
+      dots: false,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      initialSlide: 0,
+	  swipeToSlide: true,
+	  arrows: false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    };
+	  
     const { error, isLoaded, items } = this.state;
     if (error) {
       return <div>Error: {error.message}</div>;
@@ -42,13 +81,36 @@ class Games extends Component {
       return <div>Loading...</div>;
     } else {
       return (
-        <ul>
-          {items.map(item => (
-            <li key={item.id}>
-              {item.picture.thumbnail} {item.name} {item.description}
-            </li>
-          ))}
-        </ul>
+	  <Wrapper className="wrapper bg-grey">
+		<CarouselContainer className="carousel-container games-carousel">
+			<Slider {...settings}>
+				{items.map(item => (
+				<GameItem className="game-item" key={item.id}>
+					<GameImage className="game-image">
+						<img className="game-thumbnail" src={item.picture.thumbnail} />
+					</GameImage>
+					<GameDetails className="game-details">
+						<GameTitle className="game-title">{item.name}</GameTitle>
+						<GameDescription className="game-desc">{item.description}</GameDescription>
+					</GameDetails>
+				</GameItem>
+				))}
+			</Slider>
+		</CarouselContainer>
+		<Grid fluid className="container">
+			<Row end="xs">
+				<Col xs={12}>
+					<LinkDefault href="#">More Games ></LinkDefault>
+				</Col>
+			</Row>
+			<Row center="xs">
+				<Col xs={12} md={4}>
+					<StyledH2 className="with-margin normal-text-weight">Let The Fun Begin</StyledH2>
+					<BtnFill className="primary-btn large-btn" href="#">Play The Game</BtnFill>
+				</Col>
+			</Row>
+		</Grid>
+	  </Wrapper>
       );
     }
   }
