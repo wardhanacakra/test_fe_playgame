@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import imgFb from '../images/icon-facebook.svg';
 import imgYtb from '../images/icon-youtube.svg';
@@ -22,27 +21,27 @@ class Footer extends Component {
 					<SocialLinks>
 						<SocialLinksItem>
 							<Social href="#">
-								<img src={imgFb} />
+								<img src={imgFb} alt="facebook" />
 							</Social>
 						</SocialLinksItem>
 						<SocialLinksItem>
 							<Social href="#">
-								<img src={imgYtb} />
+								<img src={imgYtb} alt="youtube" />
 							</Social>
 						</SocialLinksItem>
 						<SocialLinksItem>
 							<Social href="#">
-								<img src={imgTwitter} />
+								<img src={imgTwitter} alt="twitter" />
 							</Social>
 						</SocialLinksItem>
 						<SocialLinksItem>
 							<Social href="#">
-								<img src={imgMedium} />
+								<img src={imgMedium} alt="medium" />
 							</Social>
 						</SocialLinksItem>
 						<SocialLinksItem>
 							<Social href="#" className="subscribe">
-								<img src={imgEnvelope} /> Subscribe Here
+								<img src={imgEnvelope} alt="subscribe" /> Subscribe Here
 							</Social>
 						</SocialLinksItem>
 					</SocialLinks>

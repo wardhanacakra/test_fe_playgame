@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import bgAbout from '../images/bg-about.jpg';
 import telegramIcon from '../images/icon-telegram.png';
-import {Container, MyRow, Column, StyledH1, StyledH3, StyledH5, BtnDefault, StyledP, StyledH2} from './Elements.js';
+import {MyRow, StyledH1, StyledH3, StyledH5, BtnDefault, StyledP, StyledH2} from './Elements.js';
 
 class About extends Component {
 
@@ -15,7 +14,7 @@ class About extends Component {
 				<StyledH1 className="bold-text-weight">Gaming World</StyledH1>
 			</MyRow>
 			<MyRow className="flex-center flex-column-center">
-				<img src={telegramIcon} className="medium-icon" />
+				<img src={telegramIcon} className="medium-icon" alt="telegram" />
 				<StyledH3 className="bold-text-weight">Join Our Telegram</StyledH3>
 			</MyRow>
 			<Row center="xs">

@@ -61,7 +61,7 @@ class News extends Component {
         <Slider {...settings}>
           <NewsItem className="news-item">
             <NewsImage className="news-image">
-				<img src={newsImg2} />
+				<img src={newsImg2} alt="news" />
 			</NewsImage>
 			<NewsDetails className="news-details">
 				<NewsTitle className="news-title">PlayGame Visits China's Thriving Blockchain Companies</NewsTitle>
@@ -70,7 +70,7 @@ class News extends Component {
           </NewsItem>
           <NewsItem className="news-item">
             <NewsImage className="news-image">
-				<img src={newsImg1} />
+				<img src={newsImg1} alt="news" />
 			</NewsImage>
 			<NewsDetails className="news-details">
 				<NewsTitle className="news-title">PlayGame.com Akan Mempercepat Pertumbuhan Bisnis Setelah Sukses Mencapai 600 Juta PXG Hard Cap Dalam Penutupan ICO</NewsTitle>
@@ -79,7 +79,7 @@ class News extends Component {
           </NewsItem>
           <NewsItem className="news-item">
             <NewsImage className="news-image">
-				<img src={newsImg2} />
+				<img src={newsImg2} alt="news" />
 			</NewsImage>
 			<NewsDetails className="news-details">
 				<NewsTitle className="news-title">PlayGame.com to Accelerate Business after Successful ICO Closing at 600 Million PXG Hard Cap</NewsTitle>
@@ -88,7 +88,7 @@ class News extends Component {
           </NewsItem>
           <NewsItem className="news-item">
             <NewsImage className="news-image">
-				<img src={newsImg2} />
+				<img src={newsImg2} alt="news" />
 			</NewsImage>
 			<NewsDetails className="news-details">
 				<NewsTitle className="news-title">PlayGame.com to Accelerate Business after Successful ICO Closing at 600 Million PXG Hard Cap</NewsTitle>

@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import styled from 'styled-components';
 import breakpoint from 'styled-components-breakpoint';
 import bgQuote from '../images/quote.png';
@@ -74,12 +73,6 @@ export const NavLink = styled.a`
 	.active-nav-item & {
 		color: #FF9532;
 	}
-`;
-
-export const Container = styled.div`
-    max-width: 95vw;
-    margin-left: auto;
-    margin-right: auto;
 `;
 
 export const Wrapper = styled.div`

@@ -8,7 +8,7 @@ class Tech extends Component {
   render() {
     return (
 	<div className="wrapper">
-	<MyRow><img src={imgBird} />
+	<MyRow><img src={imgBird} alt="imgBird"/>
 	</MyRow>
 	<MyRow className="overlap">
 	<Grid fluid className="container">

@@ -12,7 +12,7 @@ class Navbar extends Component {
 	<NavContainer className="nav-container">
 	  <Row middle="xs" end="xs">
 	  <Col xs={6}>
-	  <Brand href="#"><img src={logo} className="brand-logo" /></Brand>
+	  <Brand href="#"><img src={logo} className="brand-logo" alt="logo" /></Brand>
 	  </Col>
 	  <Col xs={6}>
 	  <MobileNav />

@@ -22,7 +22,6 @@ class Games extends Component {
             isLoaded: true,
             items: result
           });
-		  console.log(result);
         },
         // Note: it's important to handle errors here
         // instead of a catch() block so that we don't swallow
@@ -87,7 +86,7 @@ class Games extends Component {
 				{items.map(item => (
 				<GameItem className="game-item" key={item.id}>
 					<GameImage className="game-image">
-						<img className="game-thumbnail" src={item.picture.thumbnail} />
+						<img className="game-thumbnail" src={item.picture.thumbnail} alt="playgame" />
 					</GameImage>
 					<GameDetails className="game-details">
 						<GameTitle className="game-title">{item.name}</GameTitle>

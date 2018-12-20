@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Navigation from './Nav.js';
-import logo from '../images/pxg-logo.svg';
 import Toggle from '../images/toggle-menu.png';
 
 const SmallMenu = styled.div`
@@ -18,7 +17,7 @@ const ToggleButton = styled.a`
 
 const MenuIcon = ({ onClick, icon }) => (
   <ToggleButton role="button" onClick={onClick}>
-    <img src={Toggle} />
+    <img src={Toggle} alt="toggle" />
   </ToggleButton>
 );
 
