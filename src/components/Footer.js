@@ -11,6 +11,7 @@ class Footer extends Component {
 
   render() {
       return (
+	  <div id="footer" className="site-footer">
 	  <Wrapper className="wrapper bg-white">
 		<Grid fluid className="container">
 			<Row middle="xs">
@@ -56,6 +57,7 @@ class Footer extends Component {
 			</Row>
 		</Grid>
 	  </Wrapper>
+	  </div>
       );
     }
   }

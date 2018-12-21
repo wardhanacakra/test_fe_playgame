@@ -2,6 +2,9 @@ import styled from 'styled-components';
 import breakpoint from 'styled-components-breakpoint';
 import bgQuote from '../images/quote.png';
 
+export const Container = styled.div`
+`;
+
 export const Brand = styled.a`
 	padding-top: 5px;
 	margin: 20px;
@@ -20,9 +23,15 @@ export const NavContainer = styled.nav`
 	z-index: 1;
 	
 	${breakpoint('desktop')`
+	&.transparent-header {
 		background: transparent;
 		box-shadow: none;
-		position: relative;
+	}
+	
+	&.white-header {
+		background: #FFFFFF;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0639719);
+	}
   `}
 `;
 
@@ -73,6 +82,9 @@ export const NavLink = styled.a`
 	.active-nav-item & {
 		color: #FF9532;
 	}
+	${breakpoint('desktop')`
+	padding: 0;
+  `}
 `;
 
 export const Wrapper = styled.div`
@@ -352,7 +364,7 @@ export const BtnFill = styled.a`
 		background: #FF9532;
 	}
 	
-	${breakpoint('tablet')`
+	${breakpoint('desktop')`
 		margin-bottom: 0;
   `}
 `;
@@ -526,6 +538,7 @@ export const SocialLinks = styled.ul`
 	padding-left: 0px;
 	    display: flex;
     align-items: center;
+	justify-content: center;
 `;
 
 export const SocialLinksItem = styled.li`

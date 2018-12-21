@@ -1,12 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is playgame.com technical test. [Click here](http://test-fe.seuneu.com) to visit demo site.
 
-## Available Scripts
+## How to run app
 
-In the project directory, you can run:
+Clone this repository
+
+### `git clone https://github.com/wardhanacakra/test_fe_playgame.git`
+
+Install Libraries
+
+- styled-components
+
+### `npm install --save styled-components`
+
+- styled-components-breakpoint
+
+### `npm install --save styled-components-breakpoint`
+
+- react-flexbox-grid
+
+### `npm install --save react-flexbox-grid`
+
+- react-slick
+
+### `npm install --save react-slick`
+
+- react-carousel
+
+### `npm install --save react-carousel`
+
+- react-anchor-link-smooth-scroll
+
+### `npm install --save react-anchor-link-smooth-scroll`
+
+Runs the app in the development mode.
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
@@ -42,4 +71,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-# test_fe

@@ -51,8 +51,8 @@ class Games extends Component {
           settings: {
             slidesToShow: 5,
             slidesToScroll: 1,
-            infinite: true,
-            dots: true
+            infinite: false,
+            dots: false
           }
         },
         {
@@ -103,7 +103,7 @@ class Games extends Component {
 				</Col>
 			</Row>
 			<Row center="xs">
-				<Col xs={12} md={4}>
+				<Col xs={12} md={6}>
 					<StyledH2 className="with-margin normal-text-weight">Let The Fun Begin</StyledH2>
 					<BtnFill className="primary-btn large-btn" href="#">Play The Game</BtnFill>
 				</Col>
