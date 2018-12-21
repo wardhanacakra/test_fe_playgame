@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import telegramIcon from '../images/icon-telegram.png';
-import {MyRow, StyledH1, StyledH3, StyledH5, BtnDefault, StyledP, StyledH2} from './Elements.js';
+import telegramIcon from '../../assets/images/icon-telegram.png';
+import {MyRow, StyledH1, StyledH3, StyledH5, BtnDefault, StyledP, StyledH2} from '../elements/Elements.js';
 
 class About extends Component {
 

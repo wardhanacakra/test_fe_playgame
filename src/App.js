@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from './components/Elements.js';
+import { Container } from './components/elements/Elements.js';
 import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';

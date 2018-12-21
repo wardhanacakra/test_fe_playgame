@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Slider from "react-slick";
-import {Wrapper, StyledH2, CarouselContainer, LinkDefault, StyledH1, EventItem, EventDetails, EventTitle, EventDate} from './Elements.js';
+import {Wrapper, StyledH2, CarouselContainer, LinkDefault, StyledH1, EventItem, EventDetails, EventTitle, EventDate} from '../elements/Elements.js';
 
 class Events extends Component {
 

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Tech from './Tech';
-import News from './News';
-import Events from './Events';
-import Games from './Games';
+import Tech from './contents/Tech';
+import News from './contents/News';
+import Events from './contents/Events';
+import Games from './contents/Games';
 
 class Content extends Component {
 

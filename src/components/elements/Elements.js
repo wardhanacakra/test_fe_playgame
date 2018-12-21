@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import breakpoint from 'styled-components-breakpoint';
-import bgQuote from '../images/quote.png';
+import bgQuote from '../../assets/images/quote.png';
 
 export const Container = styled.div`
 `;

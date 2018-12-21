@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Slider from "react-slick";
-import {Wrapper, CarouselContainer, StyledH2, LinkDefault, BtnFill, GameItem, GameImage, GameDetails, GameTitle, GameDescription} from './Elements.js';
+import {Wrapper, CarouselContainer, StyledH2, LinkDefault, BtnFill, GameItem, GameImage, GameDetails, GameTitle, GameDescription} from '../elements/Elements.js';
 
 class Games extends Component {
   constructor(props) {

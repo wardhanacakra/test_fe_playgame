@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Navigation from './Nav.js';
-import Toggle from '../images/toggle-menu.png';
+import Toggle from '../../assets/images/toggle-menu.png';
 
 const SmallMenu = styled.div`
   display: none;

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Slider from "react-slick";
-import newsImg1 from '../images/news-1.jpg';
-import newsImg2 from '../images/news-2.jpg';
-import {Wrapper, StyledH2, BtnDefault, CarouselContainer, LinkDefault, NewsItem, NewsImage, NewsDetails, NewsTitle} from './Elements.js';
+import newsImg1 from '../../assets/images/news-1.jpg';
+import newsImg2 from '../../assets/images/news-2.jpg';
+import {Wrapper, StyledH2, BtnDefault, CarouselContainer, LinkDefault, NewsItem, NewsImage, NewsDetails, NewsTitle} from '../elements/Elements.js';
 
 class News extends Component {
 

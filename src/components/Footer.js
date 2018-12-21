@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import imgFb from '../images/icon-facebook.svg';
-import imgYtb from '../images/icon-youtube.svg';
-import imgTwitter from '../images/icon-twitter.svg';
-import imgMedium from '../images/icon-medium.svg';
-import imgEnvelope from '../images/icon_mail.svg';
-import {Wrapper, LinkDefault, SocialLinks, SocialLinksItem, Social, SiteCopyright} from './Elements.js';
+import imgFb from '../assets/images/icon-facebook.svg';
+import imgYtb from '../assets/images/icon-youtube.svg';
+import imgTwitter from '../assets/images/icon-twitter.svg';
+import imgMedium from '../assets/images/icon-medium.svg';
+import imgEnvelope from '../assets/images/icon_mail.svg';
+import {Wrapper, LinkDefault, SocialLinks, SocialLinksItem, Social, SiteCopyright} from './elements/Elements.js';
 
 class Footer extends Component {
 

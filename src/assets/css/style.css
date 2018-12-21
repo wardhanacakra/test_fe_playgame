@@ -14,7 +14,7 @@ code {
 }
 
 .site-header {
-	background: url(./images/bg-about.jpg);
+	background: url(../images/bg-about.jpg);
 	background-size: cover;
 }
 

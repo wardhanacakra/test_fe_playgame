@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../images/pxg-logo.svg';
-import {Nav, NavItem } from './Elements.js';
+import logo from '../../assets/images/pxg-logo.svg';
+import {Nav, NavItem } from '../elements/Elements.js';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class Navigation extends Component {

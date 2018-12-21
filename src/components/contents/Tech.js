@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import imgBird from '../images/img-bird-competition.png';
-import {MyRow, StyledBlockquote, StyledH2, BtnFill} from './Elements.js';
+import imgBird from '../../assets/images/img-bird-competition.png';
+import {MyRow, StyledBlockquote, StyledH2, BtnFill} from '../elements/Elements.js';
 
 class Tech extends Component {
 
